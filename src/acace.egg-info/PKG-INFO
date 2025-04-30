@@ -1,0 +1,67 @@
+Metadata-Version: 2.4
+Name: acace
+Version: 0.1.0
+Summary: Adaptive Context-Aware Content Engine
+Home-page: https://github.com/acace/acace
+Author: ACACE Team
+Author-email: ACACE Team <team@acace.ai>
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: acace_context_storage>=0.1.0
+Requires-Dist: acace_compression_engine>=0.1.0
+Requires-Dist: acace_llm_adapter>=0.1.0
+Requires-Dist: acace_text_preprocessor>=0.1.0
+Requires-Dist: acace_tokenizer>=0.1.0
+Requires-Dist: acace_token_weightor>=0.1.0
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+# ACACE - Adaptive Context-Aware Content Engine
+
+A comprehensive solution for AI-driven content writing that combines semantic compression and context-aware generation.
+
+## Features
+
+- Complete pipeline for content processing
+- Configurable components
+- Simplified integration with LLMs
+- Performance monitoring
+
+## Installation
+
+```bash
+pip install acace
+```
+
+## Usage
+
+```python
+from acace import ACACE
+
+# Initialize the engine
+engine = ACACE()
+
+# Process text through the pipeline
+result = engine.process_text(
+    "Your text to process",
+    context_id="session1"
+)
+
+# Generate content with context awareness
+response = engine.generate_content(
+    "Write a story about a robot learning to paint.",
+    context_id="session1"
+)
+```
+
+## License
+
+MIT License

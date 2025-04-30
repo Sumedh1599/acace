@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/acace/__init__.py
+src/acace/core.py
+src/acace.egg-info/PKG-INFO
+src/acace.egg-info/SOURCES.txt
+src/acace.egg-info/dependency_links.txt
+src/acace.egg-info/requires.txt
+src/acace.egg-info/top_level.txt

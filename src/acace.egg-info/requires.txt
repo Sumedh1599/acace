@@ -1,0 +1,6 @@
+acace_context_storage>=0.1.0
+acace_compression_engine>=0.1.0
+acace_llm_adapter>=0.1.0
+acace_text_preprocessor>=0.1.0
+acace_tokenizer>=0.1.0
+acace_token_weightor>=0.1.0
